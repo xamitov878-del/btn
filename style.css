@@ -1,28 +1,42 @@
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
-
-:root{
+:root {
     --main-color: black;
     --main-bg-color: white
 }
 
 body {
+    color: var(--main-color);
     margin: 0;
+    margin-left: 655px;
+    margin-top: 270px;
     transition: 1s;
     background-color: var(--main-bg-color);
 }
-.dark{
+
+.dark {
     --main-color: white;
     --main-bg-color: black;
 }
+
+.title {
+    font-size: 32px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 40px;
+}
+
 .check {
     width: 60px;
     height: 60px;
     background-color: white;
     border-radius: 50%;
-    margin-left: 128px;
+    margin-left: 124px;
     border: none;
     outline: none;
     transition: 1s;
@@ -43,26 +57,16 @@ body {
     background-color: #EFA812;
     background-position: 20px;
     background-image: url(./sun.svg);
-    padding: 5px;
+    padding: 7px;
     transition: 1s;
 }
 
-
 .span2 {
-    transition: 1s;
     background-color: #082785;
     background-position: 140px;
     background-image: url(./moon.svg);
 }
 
-
 .check2 {
-    width: 60px;
-    height: 60px;
-    background-color: white;
-    border-radius: 50%;
-    border: none;
-    outline: none;
     margin-left: 4.5px;
-    transition: 1s;
 }
